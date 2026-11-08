@@ -1,5 +1,11 @@
 # Homebrew tap
 
+Homebrew only loads casks from taps you trust, so trust the cask first:
+
+```bash
+brew trust --cask rociiu/tap/harmune
+```
+
 ```bash
 brew install --cask rociiu/tap/harmune
 ```
